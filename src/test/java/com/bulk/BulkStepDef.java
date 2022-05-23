@@ -84,5 +84,6 @@ public class BulkStepDef extends BaseClass {
 	public void userValidatesTheOrderIdGenerated() {
 		OrderID o = new OrderID();
 		System.out.println(b.attributeValue(o.getOrderNo(), "value"));
-	}	
+	}
+	
 }
